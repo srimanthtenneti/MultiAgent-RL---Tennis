@@ -26,6 +26,8 @@ Windows 64-bit :  https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Ten
 
 Unzip the file into your working directory. Make sure you have unity-ML agents installed and then run the jupyter-notebook.
 
+Pytorch : https://pytorch.org/get-started/locally/
+
 ### Saved files
 The files 1039_96_96_actor.pth & 1039_96_96_critic.pth , 1411_256_256_actor.pth & 1411_256_256_critic.pth are the saved weights for the networks. 
 
