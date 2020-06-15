@@ -24,5 +24,10 @@ Windows 32-bit : https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tenn
 
 Windows 64-bit :  https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
 
+### Saved files
+The files 1039_96_96_actor.pth & 1039_96_96_critic.pth , 1411_256_256_actor.pth & 1411_256_256_critic.pth are the saved weights for the networks. 
+
+1039 , 1411 are the number of episodes.
+
 ### Credits 
 Most of the code is based on the Udacity started example for DDPG.
