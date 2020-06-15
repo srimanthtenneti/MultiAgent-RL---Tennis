@@ -5,6 +5,12 @@ The algorithm for the agent is DDPG  with possibility of using the several impro
 ## Criteria
 The environment was considered solved when the agent achieved average of 0.5+ over 100 episodes.
 
+## Working principle of a DDPG
+
+Generally in a DDPG there are 2 neural networks. One is the actor network and the other is the critic. The actor takes a state as input and returns the distribuion of actions as output. Where as a critic takes a state as input and outputs the state value function as per the policy.
+
+
+
 
 ## Agent
 ### Layers
