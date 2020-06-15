@@ -14,10 +14,6 @@ After each episode, we add up the rewards that each agent received (without disc
 This yields a single score for each episode.
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 
-#### Video
-
-[![Watch the video](tennis.jpg)](youtube.com/watch?v=kxDvrkg8ep0&feature=emb_logo)
-
 ### Installation
 
 Linux : https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip
