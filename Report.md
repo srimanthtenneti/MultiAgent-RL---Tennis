@@ -9,7 +9,7 @@ The environment was considered solved when the agent achieved average of 0.5+ ov
 
 Generally in a DDPG there are 4 neural networks. Two for the actor network and the other two for the critic. The actor takes a state as input and returns the distribuion of actions as output. Where as a critic takes a state as input and outputs the state value function as per the policy.
 
-The reason why we have 4 neural networks is each model the actor and critic have a local and a target model. Once we are done with the process we copy the weights from the local network to the target network. The update implemented in the code is a soft-update. 
+The reason why we have 4 neural networks is each model the actor and critic have a local and a target model. Once we are done with an episode we copy the weights from the local network to the target network and update it's weights. The update implemented in the code is a soft-update process. 
 
  θ_target = τ*θ_local + (1 - τ)*θ_target 
  
