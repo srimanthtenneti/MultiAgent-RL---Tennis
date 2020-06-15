@@ -7,9 +7,17 @@ The environment was considered solved when the agent achieved average of 0.5+ ov
 
 ## Working principle of a DDPG
 
-Generally in a DDPG there are 2 neural networks. One is the actor network and the other is the critic. The actor takes a state as input and returns the distribuion of actions as output. Where as a critic takes a state as input and outputs the state value function as per the policy.
+Generally in a DDPG there are 4 neural networks. Two for the actor network and the other two for the critic. The actor takes a state as input and returns the distribuion of actions as output. Where as a critic takes a state as input and outputs the state value function as per the policy.
 
+The resaon why we have 4 neural networks is each model the actor and critic have a local and a target model. Once we are done with the process we copy the weights from the local network to the target network. The update implemented in the code is a soft-update. 
 
+ θ_target = τ*θ_local + (1 - τ)*θ_target 
+ 
+ The above equation governs the update step.
+ 
+ Also to improve the models performance we have implemented a OUNoise process. The detailed infromation about this is provided in the link below.
+ 
+ http://web.math.ku.dk/~susanne/StatDiff/Overheads1b
 
 
 ## Agent
