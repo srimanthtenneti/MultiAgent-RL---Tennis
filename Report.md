@@ -22,8 +22,8 @@ mid training like ELU or SELU to introduce some chaos and then switch back to RE
 ### Neurons
 I've settled on a 96 densely connected neurons on the both layers for both actor and critic, since it solved the environment in all the runs I've tried. Using more neurons solved the environment but it took more time. Using little less neurons like 72 took more time. While going to less then 64 neurons usually failed to solve the environment.
 
-![96x96](img/96_96.png)
-![256x256](img/256_256.png)
+![96x96](96_96.png)
+![256x256](256_256.png)
 
 
 ## Improvements
