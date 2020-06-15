@@ -26,21 +26,33 @@ BUFFER_FILL = int(1e4) # How much of the buffer should be filled before learning
 CACHE_SIZE = int(1e3)
 NUM_UPDATES_CACHE = 2 # How many times to update from cache buffer
 BATCH_SIZE = 256        # minibatch size
+
 GAMMA = 0.99            # discount factor
+
 TAU = 1e-3              # for soft update of target parameters
+
 LR_ACTOR = 1e-3         # learning rate of the actor
+
 LR_CRITIC = 1e-3        # learning rate of the critic
+
 WEIGHT_DECAY = 0        # L2 weight decay
+
 UPDATE_EVERY = 20       # timesteps between updates
+
 NUM_UPDATES = 15        # num of update passes when updating
+
 EPSILON = 1.0           # epsilon for the noise process added to the actions
+
 EPSILON_DECAY = 1e-6    # decay for epsilon above
+
 NOISE_SIGMA = 0.05
 
 fc1_units=96
+
 fc2_units=96
 
 random_seed=23
+
 RECREATE_EVERY=1 # Recreate agent models with new set of random weights
 
 ## Agent
